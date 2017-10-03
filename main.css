@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cccccc;
+}
+
+body {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 15px;
+  position: relative;
+  background-color: #cccccc;
+}
+
+header img {
+  position: absolute;
+  padding: 15px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 50%;
+}
+
+section {
+  margin: 0;
+  height: auto;
+  padding: 15px;
+}
+
+main section:nth-child(odd)  { background-color: #bbbbbb }
+main section:nth-child(even) { background-color: #cccccc }
+
+ul.sin-bullets {
+  list-style-type: none;
+}
+
+ul li.institucion {
+  padding-bottom: 15px;
+}
+
+.izquierda {
+  text-align: right;
+  padding: 15px;
+  height: 100%;
+  width: 200px;
+  float: left;
+  margin: 0px;
+}
+
+.derecha {
+  text-align: justify;
+  height: 100%;
+  margin: 0 0 0 200px;
+  padding: 15px;
+}
